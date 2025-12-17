@@ -1,7 +1,0 @@
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-f=pd.read_csv('/content/Sales - Sales.csv')
-avg=f[f['Month_sales']=='November 2023']['Price'].mean()
-print("Average Sales =",avg)
